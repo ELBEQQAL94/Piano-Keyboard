@@ -1,0 +1,100 @@
+/* Start Main Rules */
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box
+}
+/* Start Main Rules */
+
+/* Start Style My Design */
+h1
+{
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    margin: 0;
+    text-transform: capitalize;
+    font-family:'Lobster', cursive;
+}
+section 
+{
+    position: relative;
+    width: 100%;
+    background-color: #f2395a;
+    height: 700px;
+    overflow: hidden
+}
+section .alert
+{
+    margin-top: 3em !important;
+    margin-bottom: 3em;
+    font-size: 2em
+}
+.keys
+{
+    margin: 20% auto;
+    background-color: black;
+    width: 93%;
+    margin-top: 7em;
+    margin-bottom: 7em;
+    box-shadow: 0 3px 3px #f2395a;
+    padding: 20px;
+    border: 2px solid gray
+}
+.key
+{
+    width: 130px;
+    height: 50px;
+    background-color: black;
+    margin: 12px;
+    font-size: 1.3em;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid gray;
+    padding: 5px;
+    transition: all .3s ease-in-out;
+    box-shadow: 4px 4px 0 rgb(24, 23, 23)
+}
+/* test */
+.active
+{
+    transform: translateY(4px);
+    box-shadow: none
+}
+/* test */
+.playing
+{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600
+}
+kbd
+{
+    color: white;
+    background: none;
+    padding: 10px;
+    font-size: 1.3em;
+    font-family: 'Black And White Picture', sans-serif;
+}
+footer
+{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    font-size: 2em;
+    margin: 0;
+    text-transform: capitalize;
+    font-family:'Lobster', cursive;
+}
+footer .name, footer .github
+{
+    color: red;
+    font-size: 1.7em;
+
+}
+
+/* Start Style My Design */
